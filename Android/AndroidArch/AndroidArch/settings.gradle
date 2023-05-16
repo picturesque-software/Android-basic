@@ -1,0 +1,5 @@
+rootProject.name = "AndroidArch"
+include ':mvc-app'
+include ':mvp-app'
+include ':mvvm-app'
+include ':mvvm-with-jetpack-app'

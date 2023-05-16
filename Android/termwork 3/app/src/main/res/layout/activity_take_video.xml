@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TakeVideoActivity">
+
+    <com.example.simpletito.CameraXPreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStartVideo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/style_shoot"
+            android:elevation="2dp" />
+
+        <Button
+            android:id="@+id/btnChange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/btnStartVideo"
+            android:background="@drawable/style_change_camera" />
+    </RelativeLayout>
+
+    <com.example.simpletito.FocusImageView
+        android:id="@+id/focusView"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        app:focus_fail_id="@drawable/focus_failed"
+        app:focus_focusing_id="@drawable/focusing"
+        app:focus_success_id="@drawable/foucused" />
+
+</FrameLayout>
