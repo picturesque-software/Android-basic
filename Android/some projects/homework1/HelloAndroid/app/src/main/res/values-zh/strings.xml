@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">你好安卓</string>
+    <string name="album_app_name">极简相册</string>
+
+    <string name="test_string">这是测试文本。</string>
+    <string name="test_long_string">这是测试文本。这是测试文本。这是测试文本。这是测试文本。这是测试文本。</string>
+
+    <string name="login_username">姓名</string>
+    <string name="login_username_hint">在这里输入你的姓名。</string>
+    <string name="login_userage">年龄</string>
+    <string name="login_userage_hint">在这里输入你的年龄。</string>
+    <string name="login_usergender">性别</string>
+    <string name="login_gender_male">男</string>
+    <string name="login_gender_female">女</string>
+    <string name="login_useraddress">地址</string>
+    <string name="login_useraddress_hint">在这里输入你的地址。</string>
+    <string name="login_email">邮箱</string>
+    <string name="login_email_hint">在这里输入邮箱地址。</string>
+    <string name="login_password">密码</string>
+    <string name="login_password_hint">在这里输入密码。</string>
+    <string name="login_sign_in">登录</string>
+    <string name="login_forgot_password">忘记密码？</string>
+    <string name="login_sign_in_with_google">使用 Google 登录</string>
+    <string name="login_no_account">没有账号？</string>
+    <string name="login_sign_up">注册</string>
+    <string name="login_sign_in_susscess_tip">已登录</string>
+    <string name="login_sign_in_failure_tip">登录失败</string>
+    <string name="login_agree_licence"><u>注册表示同意用户条款</u></string>
+    <string name="album_prev">前一张</string>
+    <string name="album_next">下一张</string>
+    <string name="album_no_prev">已经是第一张了</string>
+    <string name="album_no_next">已经是最后一张了</string>
+    <string name="login_cancel">取消</string>
+    <string name="login_conform">确定</string>
+    <string name="signup_success">注册成功，请登录</string>
+    <string name="signup_fail_data_invalid">注册失败，数据不对</string>
+    <string name="signup_fail_not_agree_licence">注册需要同意用户条款</string>
+
+    <string name="forget_pass_tip">忘记密码了？没关系，找回来！</string>
+    <string name="forget_pass_no_user">此用户未注册！</string>
+    <string name="forget_pass_name_not_match">用户名不匹配！</string>
+    <string name="forget_pass_result">你的密码是：</string>
+</resources>
